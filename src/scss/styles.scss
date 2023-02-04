@@ -1,6 +1,22 @@
-body {
-  background: yellow;
-  a {
+@import "_variables";
+
+h1 {
+  color: $bg;
+  font-size: $title;
+}
+
+.box {
+  margin-top: 20px;
+  &:hover {
+    background-color: green;
+  }
+  h2 {
     color: blue;
+    &:hover {
+      color: red;
+    }
+  }
+  button {
+    color: cyan;
   }
 }
