@@ -19,5 +19,16 @@
   },
   "dependencies": {
     "sass": "^1.54.0"
-  }
+  },
+  "main": "gulpfile.babel.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serranoarevalo/scss-boilerplate.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/serranoarevalo/scss-boilerplate/issues"
+  },
+  "homepage": "https://github.com/serranoarevalo/scss-boilerplate#readme",
+  "description": ""
 }
