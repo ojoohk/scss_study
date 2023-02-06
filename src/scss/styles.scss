@@ -1,22 +1,14 @@
-@import "_variables";
+@import "mixins";
 
 h1 {
-  color: $bg;
-  font-size: $title;
-}
-
-.box {
-  margin-top: 20px;
-  &:hover {
-    background-color: green;
+  color: red;
+  @include responsive("iphone") {
+    color: yellow;
   }
-  h2 {
-    color: blue;
-    &:hover {
-      color: red;
-    }
+  @include responsive("iphone-l") {
+    font-size: 60px;
   }
-  button {
-    color: cyan;
+  @include responsive("tablet") {
+    color: green;
   }
 }
